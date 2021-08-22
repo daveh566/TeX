@@ -9,6 +9,6 @@ def help_command(client, message):
     print("This is the /help command")
 
 
-@bot.on_message(filters.chat("PyrogramChat"))
-def from_pyrogramchat(client, message):
-    print("New message in @PyrogramChat")
+@bot.on_message(filters.chat("KayAspirerProject"))
+def from_kayaspirerproject(client, message):
+    print("New message in @KayAspirerProject")
