@@ -15,6 +15,3 @@ def help_command(client, message):
 @bot.on_message(filters.chat("KayAspirerProject"))
 def from_kayaspirerproject(client, message):
     print("New message in @KayAspirerProject")
-
-    await bot.start()
-    print("started successful")
