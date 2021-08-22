@@ -17,13 +17,3 @@ def from_kayaspirerproject(client, message):
     print("New message in @KayAspirerProject")
 
 await bot.start()
-    print(
-        """
-Nelly By Aspirer Is Deployed Successfully.
-"""
-    )
-    await idle()
-
-
-loop = get_event_loop()
-loop.run_until_complete(main())
