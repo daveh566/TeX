@@ -16,4 +16,5 @@ def help_command(client, message):
 def from_kayaspirerproject(client, message):
     print("New message in @KayAspirerProject")
 
-await bot.start()
+    await bot.start()
+    print("started successful")
